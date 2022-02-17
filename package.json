@@ -1,0 +1,20 @@
+{
+    "name": "@davealdon/hext",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:DaveAldon/Transparent-Hex-Colors.git"
+    },
+    "main": "index.js",
+    "keywords": [
+        "hex",
+        "transparency",
+        "color"
+    ],
+    "author": "davealdon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DaveAldon/Transparent-Hex-Colors/issues"
+    },
+    "homepage": "https://github.com/DaveAldon/Transparent-Hex-Colors"
+}
