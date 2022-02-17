@@ -1,10 +1,10 @@
 import { hext, transparencyToHex, convertToSixDigitHex } from '../index';
 
 describe('hext library', () => {
-    test("hext outputs with transperancy", () => {
+    test("hext outputs with transparency", () => {
         expect(hext('#ff0000', 87)).toBe(`#ff0000${hardCodedHexReference(87)}`);
     })
-    test("hext converts from shorthand and outputs with transperancy", () => {
+    test("hext converts from shorthand and outputs with transparency", () => {
         expect(hext('#f00', 87)).toBe(`#ff0000${hardCodedHexReference(87)}`);
     })
     test("hext throws error due to invalid length", () => {
@@ -16,7 +16,7 @@ describe('hext library', () => {
             hext('#00', 87)
         }).toThrowError(error);
     })
-    test("transperancyToHex gets just the hex code", () => {
+    test("transparencyToHex gets just the hex code", () => {
         expect(transparencyToHex(32)).toBe(hardCodedHexReference(32));
     })
     test("convertToSixDigitHex covnerts shorthand to full 6 digits", () => {

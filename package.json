@@ -1,7 +1,7 @@
 {
     "name": "@davealdon/hext",
-    "version": "1.0.2",
-    "description": "Adds transperancy to your hex color codes",
+    "version": "1.0.3",
+    "description": "Adds transparency to your hex color codes",
     "scripts": {
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\"",
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:DaveAldon/Transparent-Hex-Colors.git"
+        "url": "git@github.com:DaveAldon/hext.git"
     },
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -31,9 +31,9 @@
     "author": "davealdon",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DaveAldon/Transparent-Hex-Colors/issues"
+        "url": "https://github.com/DaveAldon/hext/issues"
     },
-    "homepage": "https://github.com/DaveAldon/Transparent-Hex-Colors",
+    "homepage": "https://github.com/DaveAldon/hext",
     "devDependencies": {
         "@types/jest": "^27.4.0",
         "jest": "^27.5.1",
